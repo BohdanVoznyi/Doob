@@ -24,21 +24,6 @@ p {
 }
 
 
-/* Intro
-====================== */
-.intro {
-    position: relative;
-    padding-top: 50px;
-}
-
-.intro__logo {
-    position: absolute;
-    top: 50px;
-    left: 120px;
-    z-index: 1;
-}
-
-
 /* Header
 ====================== */
 .header {
@@ -99,19 +84,78 @@ p {
 }
 
 
+/* Intro
+====================== */
+.intro {
+    position: relative;
+    padding-top: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+.intro__logo {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    z-index: 1;
+}
+
+.intro__img {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: -1;
+}
 
 
+/* Description
+====================== */
+.intro__description {
+    margin-top: 280px;
+    width: 570px;
+}
+
+.intro__title {
+    font-size: 73px;
+    font-weight: 600;
+    color: #314584;
+}
+
+.intro__text {
+    margin-top: 40px;
+
+    font-size: 18px;
+    font-weight: 400;
+    color:#6e757a;
+}
+
+.intro__buttons {
+    margin-top: 45px;
+}
+
+.intro__link {
+    margin-left: 40px;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #314584;
+    text-decoration: none;
+}
 
 
+/* Button
+====================== */
+.button {
+    padding: 20px 35px;
 
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
 
-
-
-
-
-
-
-
+    background-color: #ff3946;
+    border-radius: 50px;
+}
 
 
 
